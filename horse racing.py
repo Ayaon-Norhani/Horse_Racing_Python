@@ -72,7 +72,7 @@ brown_horse = canvas.create_image(brown_horse_x,brown_horse_y,anchor=NW,image=br
 #Adding labels to the screen
 l1 = Label(main_screen,text="Select your horse",font=('calibri bold',16),bg="white")
 l1.place(x=230,y=280)
-l2 = Label(main_screen,text="Click play when ready!",font=("calibri",16),bg="white")
+l2 = Label(main_screen,text="Please click play when ready!",font=("calibri",16),bg="white")
 l2.place(x=200,y=330)
 
 b1 = Button(main_screen,text='Play!',height=2,width=14,bg='white',font=('calibri',10),command=start_game)
